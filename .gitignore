@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+/Disney-Plus-Clone-master
+/Disney-Plus-Clone-master/**

@@ -1,10 +1,11 @@
 import './App.css'
+import Header from '../src/Components/Header'
 
 function App() {
 
   return (
-    <div>
-      <h1 className='font-bold text-red-900'>Hello World</h1>
+    <div className='bg-black'>
+      <Header/>
     </div>
   )
 }
