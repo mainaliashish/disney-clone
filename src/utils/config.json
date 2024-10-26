@@ -1,0 +1,10 @@
+{
+    "api": {
+        "api_key": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NjM4YjgxNGQyMzI0ODkzMWNhMTVmNDFhODE2OWZiZCIsIm5iZiI6MTcyOTUzNjUxMi40MzE4NjMsInN1YiI6IjVlMDIyMWY4MjZkYWMxMDAxNzY3MjVjOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FNAkaZTnQ1OzofczuvIWWloqZiWjDCEPcHsvmmrY5Q8"
+    },
+    "movies_url": {
+        "top_rated_movies_url": "https://api.themoviedb.org/3/movie/top_rated",
+        "popular_movies_url": "https://api.themoviedb.org/3/movie/popular",
+        "now_playing_movies_url": "https://api.themoviedb.org/3/movie/now_playing"
+    }
+}

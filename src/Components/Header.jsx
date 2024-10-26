@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/images/logo.svg";
 import userLogo from "../assets/images/userLogoOne.png";
-import HiDotsVertical, { MENU } from "../utils/constants";
+import { HiDotsVertical, MENU } from "../utils/constants";
 import HeaderItem from "./HeaderItem";
 
 const Header = () => {

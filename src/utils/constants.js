@@ -1,14 +1,17 @@
+import config from "./config.json";
 import {
     HiHome,
-    HiMagnifyingGlass,
-    HiStar,
+    // HiMagnifyingGlass,
+    // HiStar,
     HiPlayCircle,
-    HiTv
+    HiTv,
+    HiChevronRight,
+    HiChevronLeft
 } from 'react-icons/hi2'
 
 import { HiPlus, HiDotsVertical, HiSearch } from 'react-icons/hi'
 
-export default HiDotsVertical;
+export { HiDotsVertical, HiSearch,  HiChevronRight, HiChevronLeft };
 
 export const MENU = [
     {
@@ -36,3 +39,14 @@ export const MENU = [
         icon:HiTv
     },
   ]
+
+export const API_OPTIONS = {
+    method: 'GET',
+    headers: {
+        accept: 'application/json',
+        Authorization: 'Bearer ' + config.api.api_key
+    }
+};
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/original"
+
