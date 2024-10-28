@@ -3,6 +3,8 @@ import Header from '../src/Components/Header'
 import Slider from './Components/Slider'
 import { Provider } from 'react-redux'
 import mainStore from './store/mainStore'
+import ProductionHouse from './Components/ProductionHouse'
+import GenereMovieList from './Components/GenereMovieList'
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
       <div className='bg-black'>
         <Header/>
         <Slider/>
+        <ProductionHouse/>
+        <GenereMovieList/>
       </div>
     </Provider>
   )

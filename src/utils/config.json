@@ -5,6 +5,7 @@
     "movies_url": {
         "top_rated_movies_url": "https://api.themoviedb.org/3/movie/top_rated",
         "popular_movies_url": "https://api.themoviedb.org/3/movie/popular",
-        "now_playing_movies_url": "https://api.themoviedb.org/3/movie/now_playing"
+        "now_playing_movies_url": "https://api.themoviedb.org/3/movie/now_playing",
+        "trending_movies_url": "https://api.themoviedb.org/3/discover/movie"
     }
 }

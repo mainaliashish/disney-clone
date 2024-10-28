@@ -41,7 +41,7 @@ const Slider = () => {
             <img
                 src={IMG_CDN_URL + item.backdrop_path}
                 alt="slider-image"
-                className="min-w-full md:h-[510px] object-cover object-left-top mr-5 rounded-md hover:border-[4px] border-gray-400 transition-all duration-100 ease-in-out"
+                className="min-w-full md:h-[410px] object-cover object-left-top mr-5 rounded-md hover:border-[4px] border-gray-400 transition-all duration-100 ease-in-out"
                 key={index}
             />
             ))}
